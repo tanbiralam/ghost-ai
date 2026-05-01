@@ -4,11 +4,11 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Foundation setup
+- Editor chrome foundation
 
 ## Current Goal
 
-- Design system foundation is installed and verified.
+- Editor chrome foundation is implemented and verified.
 
 ## Completed
 
@@ -18,6 +18,10 @@ Update this file whenever the current phase, active feature, or implementation s
 - Added `lib/utils.ts` with the reusable `cn()` helper.
 - Updated `app/globals.css` so shadcn variables and project Tailwind tokens resolve to the dark-only frosted obsidian theme.
 - Updated the root layout to enable dark mode from first paint.
+- Implemented `context/feature-spec/02-editor.md`.
+- Added `components/editor/editor-navbar.tsx` with fixed-height editor navigation, three-section layout, and sidebar state icons.
+- Added `components/editor/project-sidebar.tsx` with floating slide-in project tabs, empty states, close action, and full-width new project action.
+- Added `components/editor/editor-dialog-pattern.tsx` as a reusable project-level dialog composition pattern for title, description, content, and footer actions.
 
 ## In Progress
 
@@ -40,3 +44,5 @@ Update this file whenever the current phase, active feature, or implementation s
 
 - 2026-05-01: Started `01-design-system` implementation. Required context files and feature spec were read before code changes.
 - 2026-05-01: Verification passed with `npm run lint`, `npx tsc --noEmit`, and `npm run build`. The first sandboxed build failed because Google font fetching was blocked; rerunning with approved network access passed.
+- 2026-05-01: Started `02-editor` implementation. Required context files, local Next.js App Router docs, and the editor feature spec were read before code changes.
+- 2026-05-01: Verification passed for `02-editor` with `npm run lint`, `npx tsc --noEmit`, and `npm run build`. The first sandboxed build failed because Google font fetching was blocked; rerunning with approved network access passed.
