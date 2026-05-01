@@ -14,8 +14,9 @@ Read the following files in order before implementing or making any architectura
 2. `context/architecture-context.md` — system structure, boundaries, storage model, and invariants
 3. `context/ui-context.md` — theme, colors, typography, canvas design, and component conventions
 4. `context/code-standards.md` — implementation rules and conventions
-5. `context/ai-workflow-rules.md` — development workflow, scoping rules, and delivery approach
-6. `context/progress-tracker.md` — current phase, completed work, open questions, and next steps
+5. `context/security.md` — auth enforcement, input validation, secret handling, and threat surface
+6. `context/ai-workflow-rules.md` — development workflow, scoping rules, and delivery approach
+7. `context/progress-tracker.md` — current phase, completed work, open questions, and next steps
 
 Update `context/progress-tracker.md` after each meaningful implementation change.
 
